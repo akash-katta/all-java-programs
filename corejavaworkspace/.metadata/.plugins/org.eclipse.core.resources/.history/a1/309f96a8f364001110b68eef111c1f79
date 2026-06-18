@@ -1,0 +1,17 @@
+package com.javaintroduction;
+
+public class bike {
+
+	public static void main(String[] args) {
+		int bikeNo=TG01AK2004;
+		String bikeName="harley devidson";
+		String bikeModel="B21";
+		String bikeColor="black";
+		System.out.println(bikeNo);
+		System.out.println(bikeName);
+		System.out.println(bikeModel);
+		System.out.println(bikeColor);
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.javaintroduction;
+
+public class bike {
+
+	public static void main(String[] args) {
+		int bikeNo;
+		String bikeName;
+		String bikeModel;
+		String bikeColor;
+		System.out.println(bikeNo);
+		System.out.println(bikeName);
+		System.out.println(bikeModel);
+		System.out.println(bikeColor);
+
+	}
+
+}

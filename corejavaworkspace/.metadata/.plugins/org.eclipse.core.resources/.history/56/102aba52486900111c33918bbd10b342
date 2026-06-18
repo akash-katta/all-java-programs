@@ -1,0 +1,19 @@
+package com.javaintroduction;
+
+public class testdemo1 {
+	static testdemo1 t = new testdemo1();
+
+	public static void Hi01() {
+		System.out.println("method1 called");
+		Hi01();
+	}
+
+	public static void main(String[] args) {
+		System.out.println("main method started");
+	}
+	void Hello01() {
+		t.Hello01();
+		System.out.println("method2 called");
+	}
+
+}

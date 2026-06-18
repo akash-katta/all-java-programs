@@ -1,0 +1,17 @@
+package com.javaintroduction;
+
+public class employee {
+  int eId=101;
+  String eNmae="ram";
+  int salary=60000;
+  String dept="java";
+	public static void main(String[] args) {
+		employee vcube=new employee();
+		System.out.println("employee details");
+		System.out.println(vcube.eId);
+		System.out.println(vcube.eNmae);
+		System.out.println(vcube.salary);
+		System.out.println(vcube.dept);
+	}
+
+}

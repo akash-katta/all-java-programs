@@ -1,0 +1,21 @@
+package com.javaintroduction;
+
+public class Helloday {
+static {
+	System.out.println("sunday");
+	System.out.println("monday");
+}
+
+
+	public static void main(String[] args) {
+		Helloday d1=new Helloday();
+		System.out.println("good morning");
+	
+	{
+		System.out.println("tuesday");	
+		System.out.println("wednesday");
+		}
+
+	}
+
+}

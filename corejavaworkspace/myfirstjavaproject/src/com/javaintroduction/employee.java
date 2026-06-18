@@ -1,0 +1,34 @@
+package com.javaintroduction;
+
+public class employee {
+  int eId;
+  String eName;
+  int salary;
+  String dept;
+  
+	public static void main(String[] args) {
+		employee vcube=new employee();
+		vcube.eId=101;
+		vcube.eName="ram";
+		vcube.salary=60000;
+		vcube.dept="java";
+		System.out.println("employee01 details");
+		System.out.println(vcube.eId);
+		System.out.println(vcube.eName);
+		System.out.println(vcube.salary);
+		System.out.println(vcube.dept);
+		System.out.println("----------------");
+		employee vss=new employee();
+		System.out.println("employee02 details");
+		vss.eId=102;
+		vss.eName="rahul";
+		vss.salary=70000;
+	    vss.dept="sql";
+		System.out.println(vss.eId);
+		System.out.println(vss.eName);
+		System.out.println(vss.salary);
+		System.out.println(vss.dept);
+		System.out.println("----------------");
+	}
+
+}

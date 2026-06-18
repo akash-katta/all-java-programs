@@ -1,0 +1,17 @@
+package com.javaintroduction;
+
+class A {
+
+}
+
+class B {
+
+}
+
+public class Java {
+
+	public static void main(String[] args) {
+    System.out.println("main method started");
+	}
+
+}

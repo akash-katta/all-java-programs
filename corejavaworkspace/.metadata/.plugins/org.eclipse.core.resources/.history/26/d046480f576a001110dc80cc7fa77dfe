@@ -1,0 +1,32 @@
+package com.javaintroduction;
+
+public class Welcome {
+	@Override
+	protected void finalize() throws Throwable {
+		System.out.println("finalized");
+	}
+	void java() {
+		Welcome w1 = new Welcome();
+		System.out.println(w1);
+		System.out.println("hi");
+    }
+
+	public static void main(String[] args) {
+		System.out.println("main method started");
+		Welcome w1 = new Welcome();
+		Welcome w2 = new Welcome();
+		Welcome w3 = new Welcome();
+		Welcome w4 = new Welcome();
+		w1 = null;
+		w2 = w3;
+		w4.java();
+		System.out.println(w1);
+		System.out.println(w2);
+		System.out.println(w3);
+		System.out.println(w4);
+
+		System.gc();
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.javaintroduction;
+
+public class cinema {
+  static int movieNo = 111;
+  static String movieName = "rockstar";
+  static String movieHero = "ranbir";
+	public static void main(String[] args) {
+  System.out.println(movieNo);
+  System.out.println(movieName);
+  System.out.println(movieHero);
+	}
+
+}

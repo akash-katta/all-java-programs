@@ -1,0 +1,25 @@
+package com.javaintroduction;
+
+public class testdemo1 {
+	static testdemo1 t = new testdemo1();
+
+	static void method01() {
+		System.out.println("method1 called");
+		method02();
+		t.method03();
+	}
+	static void method02() {
+		System.out.println("method2 called");
+	}
+	public static void main(String[] args) {
+		System.out.println("main method started");
+		method01();
+	}
+	void method03() {
+		System.out.println("method3 called");
+		method04();
+	}
+    void method04() {
+    	System.out.println("method4 called");
+    }
+}

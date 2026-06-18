@@ -1,0 +1,23 @@
+package com.javaintroduction;
+
+class A {
+    B b;
+}
+
+class B {
+    A a;
+}
+
+public class Java {
+
+	public static void main(String[] args) {
+    System.out.println("main method started");
+    A obj1 = new A();
+    B obj2 = new B();
+    
+    obj1 B = obj2;
+    obj2 A = obj1;
+    System.out.println("main method ended");
+	}
+
+}

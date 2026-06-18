@@ -1,0 +1,38 @@
+package com.javaintroduction;
+
+public class monday {
+public static void Hi() {
+	System.out.println("good morning!");
+	Hi02();
+}
+public static void Hi02() {
+	System.out.println("how's your day");
+	Hi()03;
+}
+public static void Hi03() {
+    System.out.println("day strt");	
+}
+void Hello(){
+	System.out.println("wake up");
+	Hello02();
+}
+void Hello02() {
+	System.out.println("hurry up");
+	Hello03();
+}
+void Hello03() {
+	System.out.println("day ended");
+	
+}
+	public static void main(String[] args) {
+		System.out.println("main method started");
+		Hi();
+		
+		
+		
+		monday m=new monday();
+		m.Hello();
+	
+	}
+
+}
