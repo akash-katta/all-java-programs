@@ -1,27 +1,14 @@
 package com.javaintroduction;
 
-public class bike {
-	static {
-		System.out.println("rider");
-	}
+import java.util.Scanner;
 
-	String bikeAddress = "karimnagar";
-	String bikeOwner = "akash";
+public class bike {
+	
 
 	public static void main(String[] args) {
-		int bikeNo = 2004;
-		String bikeName = "harley devidson";
-		String bikeModel = "B21";
-		String bikeColor = "black";
-		System.out.println(bikeNo);
-		System.out.println(bikeName);
-		System.out.println(bikeModel);
-		System.out.println(bikeColor);
-
-		bike harley = new bike();
-		System.out.println(harley.bikeAddress);
-		System.out.println(harley.bikeOwner);
-
+		bike b = new bike();
+		Scanner sc = new Scanner();
+		
+		
 	}
-
 }
